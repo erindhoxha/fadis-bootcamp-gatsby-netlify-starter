@@ -204,3 +204,29 @@ $menu-label-color: $white-ter
 
   .btn
     padding: 12px
+.notification
+  background-color: rgba(0,0,0,0.05)
+  box-shadow: none
+  border: 1px solid rgba(0,0,0,0.1)
+  border-radius: 12px
+.underline
+  position: relative
+  z-index: 1
+.underline:before
+  content: ""
+  height: 3px
+  width: 120px
+  background: $kaldi-red
+  position: absolute
+  bottom: -20px
+  left: 0
+
+@media screen and (max-width:768px)
+  .underline:before
+    content: ""
+    height: 3px
+    width: 100% !important
+    background: $kaldi-red
+    position: absolute
+    bottom: -20px
+    left: 0

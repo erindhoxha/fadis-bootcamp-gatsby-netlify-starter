@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
 import instagram from "../img/instagram.svg";
 import facebook from "../img/facebook.svg";
 import logo from "../img/fadis-logo-3.png";

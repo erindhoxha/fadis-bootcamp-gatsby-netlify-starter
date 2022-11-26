@@ -29,16 +29,14 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile has-text-centered">
-                    <h1 className="title has-text-centered">
-                      {mainpitch.title}
-                    </h1>
+                  <div className="tile">
+                    <h1 className="title underline">{mainpitch.title}</h1>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
                 <div className="column is-12 mt-6">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Testimonials
+                    Success stories
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
