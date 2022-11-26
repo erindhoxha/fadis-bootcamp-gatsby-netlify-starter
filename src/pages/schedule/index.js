@@ -102,7 +102,7 @@ const index = (props) => {
                 </div>
                 <div className="mobile-table">
                   <h4 className="mt-5">Saturday</h4>
-                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
                   <div className="hiit-orange rounded p-2 mt-2">
                     <span>8:30am</span>
                     <p>HITT Boxing</p>
