@@ -9,7 +9,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <div className="container">
+    <div className="container about-page">
       <div className="columns">
         <div className="section">
           <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">

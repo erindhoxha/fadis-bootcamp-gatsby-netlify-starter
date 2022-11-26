@@ -4,11 +4,11 @@ title: Welcome to Fadi's Bootcamp & Boxing
 image: /img/pexels-koolshooters-9945075.jpg
 heading: Welcome to Fadi's Bootcamp & Boxing
 subheading: We help people lose fat and keep it off by teaching balance and how
-  to fit all kinds of foods
+  to fit all kinds of food
 mainpitch:
   title: Why join us?
   description: Not only we help people lose fat and keep it off by teaching
-    balance and how to fit all kinds of foods, we track your weight and help you
+    balance and how to fit all kinds of food, we track your weight and help you
     reach your goals.
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
@@ -19,7 +19,8 @@ intro:
     - image: /img/papery-scales.png
       text: Body fat percentage measurements at the start and the end of the program
     - image: /img/quirky-big-clock-with-graphic-elements-1.png
-      text: Set weekly goals and hold you accountable to these goals and show you how
+      text:
+        Set weekly goals and hold you accountable to these goals and show you how
         to lose weight and keep it off by balancing your diet.
     - image: /img/biro-large-stationary-blender-grinds-fruit.png
       text: We help you with your nutrition plan and track your food each week
