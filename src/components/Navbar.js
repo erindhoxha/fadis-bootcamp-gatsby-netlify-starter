@@ -45,7 +45,7 @@ const Navbar = class extends React.Component {
               <img
                 src={logo}
                 alt="Kaldi"
-                style={{ width: "100%", height: "200px" }}
+                style={{ width: "100%", maxWidth: "100px", height: "200px" }}
               />
             </Link>
             {/* Hamburger menu */}
