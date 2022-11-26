@@ -24,225 +24,241 @@ const index = (props) => {
                 <div className="mobile-table">
                   <h4>Monday</h4>
                   <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
-                  <div class="hiit-am-1 rounded p-2">
+                  <div className="hiit-am-1 rounded p-2">
                     <span>5:20am</span>
                     <p>HITT Boxing</p>
                   </div>
-                  <div class="hiit-am-2 rounded mt-2 p-2">
+                  <div className="hiit-am-2 rounded mt-2 p-2">
                     <span>6:20am</span>
                     <p>HITT Boxing</p>
                   </div>
-                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
-                  <div class="hiit-pm-1 rounded p-2">
+                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
+                    Afternoon
+                  </p>
+                  <div className="hiit-pm-1 rounded p-2">
                     <span>6:00pm</span>
                     <p>HITT Boxing</p>
                   </div>
-                  <div class="hiit-pm-2 rounded p-2 mt-2">
+                  <div className="hiit-pm-2 rounded p-2 mt-2">
                     <span>7:00pm</span>
                     <p>HITT Boxing</p>
                   </div>
                 </div>
-                <div className="mobile-table">
-                  <h4 className="mt-5">Tuesday</h4>
-                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
-                  <div class="hiit-orange rounded p-2 mt-2">
+                <div classNameName="mobile-table">
+                  <h4 classNameName="mt-5">Tuesday</h4>
+                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
+                    Afternoon
+                  </p>
+                  <div className="hiit-orange rounded p-2 mt-2">
                     <span>6:30pm</span>
                     <p>HITT Boxing</p>
                   </div>
                 </div>
-                <div className="mobile-table">
-                  <h4 className="mt-5">Wednesday</h4>
-                  <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
-                  <div class="hiit-am-1 rounded p-2">
+                <div classNameName="mobile-table">
+                  <h4 classNameName="mt-5">Wednesday</h4>
+                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
+                    Morning
+                  </p>
+                  <div className="hiit-am-1 rounded p-2">
                     <span>5:20am</span>
                     <p>HITT Circuit</p>
                   </div>
-                  <div class="hiit-am-2 rounded mt-2 p-2">
+                  <div className="hiit-am-2 rounded mt-2 p-2">
                     <span>6:20am</span>
                     <p>HITT Circuit</p>
                   </div>
-                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
-                  <div class="hiit-pm-1 rounded p-2">
+                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
+                    Afternoon
+                  </p>
+                  <div className="hiit-pm-1 rounded p-2">
                     <span>6:00pm</span>
                     <p>HITT Circuit</p>
                   </div>
-                  <div class="hiit-pm-2 rounded p-2 mt-2">
+                  <div className="hiit-pm-2 rounded p-2 mt-2">
                     <span>7:00pm</span>
                     <p>HITT Circuit</p>
                   </div>
                 </div>
-                <div className="mobile-table">
-                  <h4 className="mt-5">Thursday</h4>
-                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
-                  <div class="hiit-orange rounded p-2 mt-2">
+                <div classNameName="mobile-table">
+                  <h4 classNameName="mt-5">Thursday</h4>
+                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
+                    Afternoon
+                  </p>
+                  <div className="hiit-orange rounded p-2 mt-2">
                     <span>6:30pm</span>
                     <p>HITT Circuit</p>
                   </div>
                 </div>
-                <div className="mobile-table">
-                  <h4 className="mt-5">Friday</h4>
-                  <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
-                  <div class="hiit-am-1 rounded p-2">
+                <div classNameName="mobile-table">
+                  <h4 classNameName="mt-5">Friday</h4>
+                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
+                    Morning
+                  </p>
+                  <div className="hiit-am-1 rounded p-2">
                     <span>5:20am</span>
                     <p>HITT</p>
                   </div>
-                  <div class="hiit-am-2 rounded mt-2 p-2">
+                  <div className="hiit-am-2 rounded mt-2 p-2">
                     <span>6:20am</span>
                     <p>HITT</p>
                   </div>
-                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
-                  <div class="hiit-pm-1 rounded p-2">
+                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
+                    Afternoon
+                  </p>
+                  <div className="hiit-pm-1 rounded p-2">
                     <span>6:00pm</span>
                     <p>HITT</p>
                   </div>
-                  <div class="hiit-pm-2 rounded p-2 mt-2">
+                  <div className="hiit-pm-2 rounded p-2 mt-2">
                     <span>7:00pm</span>
                     <p>HITT</p>
                   </div>
                 </div>
-                <div className="mobile-table">
-                  <h4 className="mt-5">Saturday</h4>
-                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
-                  <div class="hiit-orange rounded p-2 mt-2">
+                <div classNameName="mobile-table">
+                  <h4 classNameName="mt-5">Saturday</h4>
+                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
+                    Afternoon
+                  </p>
+                  <div className="hiit-orange rounded p-2 mt-2">
                     <span>8:30am</span>
                     <p>HITT Boxing</p>
                   </div>
                 </div>
-                <div class="table table-desktop">
-                  <div class="table-row">
-                    <div class="table-head">Monday</div>
-                    <div class="table-head">Tuesday</div>
-                    <div class="table-head">Wednesday</div>
-                    <div class="table-head">Thursday</div>
-                    <div class="table-head">Friday</div>
-                    <div class="table-head">Saturday</div>
-                    <div class="table-head">Sunday</div>
+                <div className="table table-desktop">
+                  <div className="table-row">
+                    <div className="table-head">Monday</div>
+                    <div className="table-head">Tuesday</div>
+                    <div className="table-head">Wednesday</div>
+                    <div className="table-head">Thursday</div>
+                    <div className="table-head">Friday</div>
+                    <div className="table-head">Saturday</div>
+                    <div className="table-head">Sunday</div>
                   </div>
-                  <div class="table-row">
-                    <div class="table-cell hiit-am-1">
+                  <div className="table-row">
+                    <div className="table-cell hiit-am-1">
                       <span>5:20am</span>
                       <p>HITT Boxing</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell hiit-am-1">
+                    <div className="table-cell"></div>
+                    <div className="table-cell hiit-am-1">
                       <span>5:20am</span>
                       <p>HITT Circuit</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell hiit-am-1">
+                    <div className="table-cell"></div>
+                    <div className="table-cell hiit-am-1">
                       <span>5:20am</span>
                       <p>HITT</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
                   </div>
-                  <div class="table-row">
-                    <div class="table-cell hiit-am-2">
+                  <div className="table-row">
+                    <div className="table-cell hiit-am-2">
                       <span>6:20am</span>
                       <p>HITT Boxing</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell hiit-am-2">
+                    <div className="table-cell"></div>
+                    <div className="table-cell hiit-am-2">
                       <span>6:20am</span>
                       <p>HITT Circuit</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell hiit-am-2">
+                    <div className="table-cell"></div>
+                    <div className="table-cell hiit-am-2">
                       <span>6:20am</span>
                       <p>HITT</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
                   </div>
-                  <div class="table-row">
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
+                  <div className="table-row">
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
                   </div>
-                  <div class="table-row">
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell hiit-orange">
+                  <div className="table-row">
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell hiit-orange">
                       <span>8:30am</span>
                       <p>HITT Boxing</p>
                     </div>
-                    <div class="table-cell"></div>
+                    <div className="table-cell"></div>
                   </div>
-                  <div class="table-row">
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
+                  <div className="table-row">
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
                   </div>
-                  <div class="table-row">
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
+                  <div className="table-row">
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
                   </div>
-                  <div class="table-row">
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
+                  <div className="table-row">
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
                   </div>
-                  <div class="table-row">
-                    <div class="table-cell hiit-pm-1">
+                  <div className="table-row">
+                    <div className="table-cell hiit-pm-1">
                       <span>6:00pm</span>
                       <p>HITT Boxing</p>
                     </div>
-                    <div class="table-cell hiit-orange">
+                    <div className="table-cell hiit-orange">
                       <span>6:30pm</span>
                       <p>HITT Boxing</p>
                     </div>
-                    <div class="table-cell hiit-pm-1">
+                    <div className="table-cell hiit-pm-1">
                       <span>6:00pm</span>
                       <p>HITT Circuit</p>
                     </div>
-                    <div class="table-cell hiit-orange">
+                    <div className="table-cell hiit-orange">
                       <span>6:30pm</span>
                       <p>HITT Circuit</p>
                     </div>
-                    <div class="table-cell hiit-pm-1">
+                    <div className="table-cell hiit-pm-1">
                       <span>6:00pm</span>
                       <p>HITT</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
                   </div>
-                  <div class="table-row">
-                    <div class="table-cell hiit-pm-2">
+                  <div className="table-row">
+                    <div className="table-cell hiit-pm-2">
                       <span>7:00pm</span>
                       <p>HITT Boxing</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell hiit-pm-2">
+                    <div className="table-cell"></div>
+                    <div className="table-cell hiit-pm-2">
                       <span>7:00pm</span>
                       <p>HITT Circuit</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell hiit-pm-2">
+                    <div className="table-cell"></div>
+                    <div className="table-cell hiit-pm-2">
                       <span>7:00pm</span>
                       <p>HITT</p>
                     </div>
-                    <div class="table-cell"></div>
-                    <div class="table-cell"></div>
+                    <div className="table-cell"></div>
+                    <div className="table-cell"></div>
                   </div>
                 </div>
               </div>
