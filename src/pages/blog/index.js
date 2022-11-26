@@ -10,7 +10,7 @@ export default class BlogIndexPage extends React.Component {
         <div className="container">
           <div className="columns">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">
                 Testimonials
               </h2>
               <section

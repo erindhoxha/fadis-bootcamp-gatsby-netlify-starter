@@ -39,7 +39,7 @@ export default class Index extends React.Component {
         <div className="container">
           <div className="columns">
             <div className="section" style={{ minWidth: "70%" }}>
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">
                 Contact us
               </h2>
               <p>
