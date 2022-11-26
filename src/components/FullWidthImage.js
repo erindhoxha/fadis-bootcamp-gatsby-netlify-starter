@@ -16,8 +16,8 @@ export default function FullWidthImage(props) {
       className="margin-top-0"
       style={{
         display: "grid",
-        minHeight: "70vh",
-        maxHeight: "900px",
+        minHeight: "50vh",
+        maxHeight: "700px",
         alignItems: "center",
         position: "relative",
       }}
