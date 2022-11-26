@@ -1,19 +1,30 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
-title: About our values
+title: What we do
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Be stronger than your strongest excuse
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Remember you don't have to be great to start, but you have to start to be great.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### O﻿ur mission
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Transform peoples lives in a positive way by getting them stronger fitter healthier feeling better about themselves.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Weekly support
+
+W﻿e set weekly goals for you and we do weigh-ins to help you with your nutrition plan and track your food each week
+
+### HIIT training
+
+HIIT Training for best results - Circuit training - Boxing training - One on one PT and boxing sessions
+
+### Lose weight
+
+Show you how to lose weight and keep it off through balancing your diet
+
+
+
+J﻿oin us today, call us at [0405 369 078](tel:0405369078)\
+\
+[ 138 Great N Rd, Five Dock NSW 2046](https://g.page/fadisbootcampandboxingfivedock?share)``

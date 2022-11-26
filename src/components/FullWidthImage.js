@@ -43,6 +43,7 @@ export default function FullWidthImage(props) {
           image={img}
           objectFit={"cover"}
           objectPosition={imgPosition}
+          imgStyle={{ position: "static" }}
           style={{
             gridArea: "1/1",
             // You can set a maximum height for the image, if you wish.
@@ -89,7 +90,7 @@ export default function FullWidthImage(props) {
               className="has-text-weight-regular has-text-centered is-size-6-mobile is-size-5-tablet is-size-6-widescreen"
               style={{
                 color: "white",
-                lineHeight: "1",
+                lineHeight: "1.4",
                 padding: "0.25rem",
                 marginTop: "0.25rem",
               }}
