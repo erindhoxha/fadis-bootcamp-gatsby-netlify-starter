@@ -10,9 +10,8 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
-.gatsby-image-wrapper
-  div
-    padding: 0px !important
+.gatsby-image-wrapper > div[aria-hidden="true"]
+  display: none
 html
   font-family: "Open Sans"
   overflow: auto !important
