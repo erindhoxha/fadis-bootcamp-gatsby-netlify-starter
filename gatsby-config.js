@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Fadi's Bootcamp & Boxing | Sydney NSW | Join now",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "We provide: - Body fat percentage measurements at the start and the end of the program - Set weekly goals and hold you accountable to these goals - Weekly weigh-ins - We help you with your nutrition plan and track your food each week - Provide weekly support - HIIT Training for best results - Circuit training - Boxing training - One on one PT and boxing sessions - show you how to lose weight and keep it off through balancing your diet.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
