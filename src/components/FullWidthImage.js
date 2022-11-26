@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 export default function FullWidthImage(props) {
   const {
@@ -99,7 +100,9 @@ export default function FullWidthImage(props) {
               {subheading}
             </h4>
           )}
-          <button className="button is-primary mt-5">View schedule</button>
+          <Link to="/schedule" className="button is-primary mt-5">
+            View schedule
+          </Link>
         </div>
       )}
       <div className="overlay"></div>
