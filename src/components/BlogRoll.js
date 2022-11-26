@@ -14,6 +14,12 @@ class BlogRollTemplate extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  height: "100%",
+                  width: "100%",
+                }}
                 className={`blog-list-item tile is-child box notification ${
                   post.frontmatter.featuredpost ? "is-featured" : ""
                 }`}
@@ -48,10 +54,8 @@ class BlogRollTemplate extends React.Component {
                     </span>
                   </p>
                 </header>
-                <p>
+                <p style={{ marginTop: "auto" }}>
                   {post.excerpt}
-                  <br />
-                  <br />
                   <Link className="button is-primary" to={post.fields.slug}>
                     Keep Reading →
                   </Link>

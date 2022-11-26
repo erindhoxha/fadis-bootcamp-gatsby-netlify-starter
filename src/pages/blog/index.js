@@ -15,7 +15,11 @@ export default class BlogIndexPage extends React.Component {
               </h2>
               <section
                 className="section"
-                style={{ paddingTop: "0px", paddingLeft: "0px" }}
+                style={{
+                  paddingTop: "0px",
+                  paddingLeft: "0px",
+                  paddingRight: "0px",
+                }}
               >
                 <div className="content">
                   <BlogRoll />
