@@ -1,16 +1,15 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience2
-subheading: Support sustainable farming while enjoying a cup
+title: Welcome to Fadi's Bootcamp & Boxing
+image: /img/carousel-1.jpg
+heading: Welcome to Fadi's Bootcamp & Boxing
+subheading: We help people lose fat and keep it off by teaching balance and how
+  to fit all kinds of foods, find us at 138 Great N Rd, Five Dock NSW 2046
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Why join us?
+  description: Not only we help people lose fat and keep it off by teaching
+    balance and how to fit all kinds of foods, we track your weight and help you
+    reach your goals.
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
@@ -18,32 +17,15 @@ description: Kaldi is the ultimate spot for coffee lovers who want to learn
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: Body fat percentage measurements at the start and the end of the program
     - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: Set weekly goals and hold you accountable to these goals and show you how
+        to lose weight and keep it off by balancing your diet.
     - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+      text: We help you with your nutrition plan and track your food each week
     - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+      text: "Provide weekly support - HIIT Training for best results - Circuit
+        training - Boxing training - One-on-one PT and boxing sessions "
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
