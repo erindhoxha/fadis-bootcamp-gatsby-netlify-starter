@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Welcome to Fadi's Bootcamp & Boxing
-image: /img/pexels-photo-7991666.jpeg
+image: /img/pexels-koolshooters-9945075.jpg
 heading: Welcome to Fadi's Bootcamp & Boxing
 subheading: We help people lose fat and keep it off by teaching balance and how
   to fit all kinds of foods, find us at 138 Great N Rd, Five Dock NSW 2046

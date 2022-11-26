@@ -93,6 +93,7 @@ export default function FullWidthImage(props) {
                 lineHeight: "1.4",
                 padding: "0.25rem",
                 marginTop: "0.25rem",
+                maxWidth: "700px",
               }}
             >
               {subheading}

@@ -11,16 +11,14 @@ export default class BlogIndexPage extends React.Component {
           <div className="container">
             <div className="section">
               <div className="columns">
-                <div className="column is-7 is-offset-1">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Testimonials
-                  </h3>
-                </div>
+                <h3 className="has-text-weight-semibold is-size-2">
+                  Testimonials
+                </h3>
               </div>
             </div>
           </div>
         </div>
-        <section className="section">
+        <section className="section" style={{ paddingTop: "0px" }}>
           <div className="container">
             <div className="content">
               <BlogRoll />
