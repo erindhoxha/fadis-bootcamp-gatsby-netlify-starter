@@ -7,24 +7,23 @@ export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div className="content">
-          <div className="container">
+        <div className="container">
+          <div className="columns">
             <div className="section">
-              <div className="columns">
-                <h3 className="has-text-weight-semibold is-size-2">
-                  Testimonials
-                </h3>
-              </div>
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Testimonials
+              </h2>
+              <section
+                className="section"
+                style={{ paddingTop: "0px", paddingLeft: "0px" }}
+              >
+                <div className="content">
+                  <BlogRoll />
+                </div>
+              </section>
             </div>
           </div>
         </div>
-        <section className="section" style={{ paddingTop: "0px" }}>
-          <div className="container">
-            <div className="content">
-              <BlogRoll />
-            </div>
-          </div>
-        </section>
       </Layout>
     );
   }
