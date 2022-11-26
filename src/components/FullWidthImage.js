@@ -103,6 +103,17 @@ export default function FullWidthImage(props) {
           <Link to="/schedule" className="button is-primary mt-5">
             View schedule
           </Link>
+          <a
+            style={{
+              color: "white",
+              marginTop: "24px",
+              textDecoration: "underline",
+              fontSize: "14px",
+            }}
+            href="https://g.page/fadisbootcampandboxingfivedock?share"
+          >
+            138 Great N Rd, Five Dock NSW 2046
+          </a>
         </div>
       )}
       <div className="overlay"></div>
