@@ -21,7 +21,94 @@ const index = (props) => {
               }}
             >
               <div className="content">
-                <div class="table">
+                <div className="mobile-table">
+                  <h4>Monday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
+                  <div class="hiit-am-1 rounded p-2">
+                    <span>5:20am</span>
+                    <p>HITT Boxing</p>
+                  </div>
+                  <div class="hiit-am-2 rounded mt-2 p-2">
+                    <span>6:20am</span>
+                    <p>HITT Boxing</p>
+                  </div>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
+                  <div class="hiit-pm-1 rounded p-2">
+                    <span>6:00pm</span>
+                    <p>HITT Boxing</p>
+                  </div>
+                  <div class="hiit-pm-2 rounded p-2 mt-2">
+                    <span>7:00pm</span>
+                    <p>HITT Boxing</p>
+                  </div>
+                </div>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Tuesday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
+                  <div class="hiit-orange rounded p-2 mt-2">
+                    <span>6:30pm</span>
+                    <p>HITT Boxing</p>
+                  </div>
+                </div>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Wednesday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
+                  <div class="hiit-am-1 rounded p-2">
+                    <span>5:20am</span>
+                    <p>HITT Circuit</p>
+                  </div>
+                  <div class="hiit-am-2 rounded mt-2 p-2">
+                    <span>6:20am</span>
+                    <p>HITT Circuit</p>
+                  </div>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
+                  <div class="hiit-pm-1 rounded p-2">
+                    <span>6:00pm</span>
+                    <p>HITT Circuit</p>
+                  </div>
+                  <div class="hiit-pm-2 rounded p-2 mt-2">
+                    <span>7:00pm</span>
+                    <p>HITT Circuit</p>
+                  </div>
+                </div>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Thursday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
+                  <div class="hiit-orange rounded p-2 mt-2">
+                    <span>6:30pm</span>
+                    <p>HITT Circuit</p>
+                  </div>
+                </div>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Friday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
+                  <div class="hiit-am-1 rounded p-2">
+                    <span>5:20am</span>
+                    <p>HITT</p>
+                  </div>
+                  <div class="hiit-am-2 rounded mt-2 p-2">
+                    <span>6:20am</span>
+                    <p>HITT</p>
+                  </div>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
+                  <div class="hiit-pm-1 rounded p-2">
+                    <span>6:00pm</span>
+                    <p>HITT</p>
+                  </div>
+                  <div class="hiit-pm-2 rounded p-2 mt-2">
+                    <span>7:00pm</span>
+                    <p>HITT</p>
+                  </div>
+                </div>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Saturday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
+                  <div class="hiit-orange rounded p-2 mt-2">
+                    <span>8:30am</span>
+                    <p>HITT Boxing</p>
+                  </div>
+                </div>
+                <div class="table table-desktop">
                   <div class="table-row">
                     <div class="table-head">Monday</div>
                     <div class="table-head">Tuesday</div>

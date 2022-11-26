@@ -7,6 +7,7 @@
   --yellow: #d1ce10;
 }
 
+
 .table{
   display: table;
   width:100%;
@@ -58,4 +59,16 @@
   color:white;
   font-weight:600;
   text-align:center;
+}
+
+@media screen and (max-width:768px) {
+  .table-desktop {
+    display:none !important;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .mobile-table {
+    display:none !important;
+  }
 }
