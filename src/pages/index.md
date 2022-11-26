@@ -16,14 +16,14 @@ description: Kaldi is the ultimate spot for coffee lovers who want to learn
   knowledge to anyone.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/papery-scales.png
       text: Body fat percentage measurements at the start and the end of the program
-    - image: /img/coffee-gear.png
+    - image: /img/quirky-big-clock-with-graphic-elements-1.png
       text: Set weekly goals and hold you accountable to these goals and show you how
         to lose weight and keep it off by balancing your diet.
-    - image: /img/tutorials.png
+    - image: /img/biro-large-stationary-blender-grinds-fruit.png
       text: We help you with your nutrition plan and track your food each week
-    - image: /img/meeting-space.png
+    - image: /img/bloom-girl-exercising-with-an-online-trainer.png
       text: "Provide weekly support - HIIT Training for best results - Circuit
         training - Boxing training - One-on-one PT and boxing sessions "
   heading: What we offer
