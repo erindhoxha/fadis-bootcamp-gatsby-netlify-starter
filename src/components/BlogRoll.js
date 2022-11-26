@@ -43,21 +43,23 @@ class BlogRollTemplate extends React.Component {
                   ) : null}
                   <p className="post-meta">
                     <Link
-                      className="title has-text-primary is-size-4"
+                      className="title has-text-primary is-size-5 is-block"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &nbsp; </span>
-                    <span className="subtitle is-size-5 is-block">
+                    <span
+                      className="subtitle is-size-7 is-block"
+                      style={{ display: "block" }}
+                    >
                       {post.frontmatter.date}
                     </span>
                   </p>
                 </header>
                 <p style={{ marginTop: "auto" }}>
                   {post.excerpt}
-                  <Link className="button is-primary" to={post.fields.slug}>
-                    Keep Reading →
+                  <Link className="button is-secondary" to={post.fields.slug}>
+                    Read story →
                   </Link>
                 </p>
               </article>
