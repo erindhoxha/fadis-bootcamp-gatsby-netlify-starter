@@ -32,9 +32,7 @@ const index = (props) => {
                     <span>6:20am</span>
                     <p>HITT Boxing</p>
                   </div>
-                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
-                    Afternoon
-                  </p>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-pm-1 rounded p-2">
                     <span>6:00pm</span>
                     <p>HITT Boxing</p>
@@ -44,21 +42,17 @@ const index = (props) => {
                     <p>HITT Boxing</p>
                   </div>
                 </div>
-                <div classNameName="mobile-table">
-                  <h4 classNameName="mt-5">Tuesday</h4>
-                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
-                    Afternoon
-                  </p>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Tuesday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-orange rounded p-2 mt-2">
                     <span>6:30pm</span>
                     <p>HITT Boxing</p>
                   </div>
                 </div>
-                <div classNameName="mobile-table">
-                  <h4 classNameName="mt-5">Wednesday</h4>
-                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
-                    Morning
-                  </p>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Wednesday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
                   <div className="hiit-am-1 rounded p-2">
                     <span>5:20am</span>
                     <p>HITT Circuit</p>
@@ -67,9 +61,7 @@ const index = (props) => {
                     <span>6:20am</span>
                     <p>HITT Circuit</p>
                   </div>
-                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
-                    Afternoon
-                  </p>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-pm-1 rounded p-2">
                     <span>6:00pm</span>
                     <p>HITT Circuit</p>
@@ -79,21 +71,17 @@ const index = (props) => {
                     <p>HITT Circuit</p>
                   </div>
                 </div>
-                <div classNameName="mobile-table">
-                  <h4 classNameName="mt-5">Thursday</h4>
-                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
-                    Afternoon
-                  </p>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Thursday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-orange rounded p-2 mt-2">
                     <span>6:30pm</span>
                     <p>HITT Circuit</p>
                   </div>
                 </div>
-                <div classNameName="mobile-table">
-                  <h4 classNameName="mt-5">Friday</h4>
-                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
-                    Morning
-                  </p>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Friday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
                   <div className="hiit-am-1 rounded p-2">
                     <span>5:20am</span>
                     <p>HITT</p>
@@ -102,9 +90,7 @@ const index = (props) => {
                     <span>6:20am</span>
                     <p>HITT</p>
                   </div>
-                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
-                    Afternoon
-                  </p>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-pm-1 rounded p-2">
                     <span>6:00pm</span>
                     <p>HITT</p>
@@ -114,11 +100,9 @@ const index = (props) => {
                     <p>HITT</p>
                   </div>
                 </div>
-                <div classNameName="mobile-table">
-                  <h4 classNameName="mt-5">Saturday</h4>
-                  <p classNameName="mb-0 mt-4 has-text-weight-medium">
-                    Afternoon
-                  </p>
+                <div className="mobile-table">
+                  <h4 className="mt-5">Saturday</h4>
+                  <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-orange rounded p-2 mt-2">
                     <span>8:30am</span>
                     <p>HITT Boxing</p>
