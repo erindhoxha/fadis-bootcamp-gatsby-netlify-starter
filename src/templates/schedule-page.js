@@ -1,23 +1,25 @@
-import PropTypes from "prop-types";
-import * as React from "react";
-import { navigate } from "gatsby-link";
-import Layout from "../../components/Layout";
-import "../../components/schedule.css";
-const index = (props) => {
+import * as React from 'react';
+import { graphql } from 'gatsby';
+import '../components/schedule.css';
+import Layout from '../components/Layout';
+import PropTypes from 'prop-types';
+
+const SchedulePageTemplate = ({ data }) => {
+  console.log(data);
   return (
     <Layout>
       <div className="container">
         <div className="columns">
           <div className="section">
             <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">
-              Schedule
+              {data.markdownRemark.frontmatter.title}
             </h2>
             <section
               className="section"
               style={{
-                paddingTop: "0px",
-                paddingLeft: "0px",
-                paddingRight: "0px",
+                paddingTop: '0px',
+                paddingLeft: '0px',
+                paddingRight: '0px',
               }}
             >
               <div className="content">
@@ -254,6 +256,46 @@ const index = (props) => {
   );
 };
 
-index.propTypes = {};
+SchedulePageTemplate.propTypes = {
+  data: PropTypes.object.isRequired,
+};
 
-export default index;
+export default SchedulePageTemplate;
+
+export const schedulePageQuery = graphql`
+  query SchedulePageTemplate($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      frontmatter {
+        title
+        monday {
+          name
+          time
+        }
+        tuesday {
+          name
+          time
+        }
+        wednesday {
+          name
+          time
+        }
+        thursday {
+          name
+          time
+        }
+        friday {
+          name
+          time
+        }
+        saturday {
+          name
+          time
+        }
+        sunday {
+          name
+          time
+        }
+      }
+    }
+  }
+`;
