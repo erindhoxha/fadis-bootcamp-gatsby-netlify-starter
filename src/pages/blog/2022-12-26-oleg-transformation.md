@@ -1,9 +1,8 @@
 ---
-templateKey: blog-post
-title: OLEG TRANSFORMATION
-date: 2022-12-26T06:12:35.086Z
-description: 25KG DOWN
+title: DAVID TRANSFORMATION
+date: 2022-12-26T06:14:01.948Z
+description: WELL DONE
 featuredpost: true
-featuredimage: /img/copy-of-img_4811.jpg
+featuredimage: /img/copy-of-img_4806.jpg
 ---
-W﻿ELL DONE
+G﻿OOD GAME
