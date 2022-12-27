@@ -6,4 +6,4 @@ description: GOOD EFFORT
 featuredpost: true
 featuredimage: /img/copy-of-copy-of-img_4817.jpg
 ---
-W﻿ELL DONE
+![](/img/copy-of-copy-of-img_4817.jpg)
