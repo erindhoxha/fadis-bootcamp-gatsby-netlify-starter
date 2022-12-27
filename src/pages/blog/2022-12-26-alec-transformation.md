@@ -6,4 +6,4 @@ description: WELL DONE
 featuredpost: true
 featuredimage: /img/copy-of-img_4799.jpg
 ---
-G﻿OOD JOB
+![](/img/copy-of-img_4799.jpg)
