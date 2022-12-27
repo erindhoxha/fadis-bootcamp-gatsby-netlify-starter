@@ -4,8 +4,12 @@ import '../components/schedule.css';
 import Layout from '../components/Layout';
 import PropTypes from 'prop-types';
 
+const BOXING_TECHNIQUE = 'Boxing Technique';
+const HIIT_BOXING = 'HIIT Boxing';
+const HIIT_CIRCUIT = 'HIIT Circuit';
+const HIIT = 'HIIT';
+
 const SchedulePageTemplate = ({ data }) => {
-  console.log(data);
   return (
     <Layout>
       <div className="container">
@@ -28,20 +32,20 @@ const SchedulePageTemplate = ({ data }) => {
                   <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
                   <div className="hiit-am-1 rounded p-2">
                     <span>5:20am</span>
-                    <p>HITT Boxing</p>
+                    <p>{HIIT_BOXING}</p>
                   </div>
                   <div className="hiit-am-2 rounded mt-2 p-2">
                     <span>6:20am</span>
-                    <p>HITT Boxing</p>
+                    <p>{HIIT_BOXING}</p>
                   </div>
                   <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-pm-1 rounded p-2">
                     <span>6:00pm</span>
-                    <p>HITT Boxing</p>
+                    <p>{HIIT_BOXING}</p>
                   </div>
                   <div className="hiit-pm-2 rounded p-2 mt-2">
                     <span>7:00pm</span>
-                    <p>HITT Boxing</p>
+                    <p>{BOXING_TECHNIQUE}</p>
                   </div>
                 </div>
                 <div className="mobile-table">
@@ -49,7 +53,7 @@ const SchedulePageTemplate = ({ data }) => {
                   <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-orange rounded p-2 mt-2">
                     <span>6:30pm</span>
-                    <p>HITT Boxing</p>
+                    <p>{HIIT_BOXING}</p>
                   </div>
                 </div>
                 <div className="mobile-table">
@@ -57,20 +61,20 @@ const SchedulePageTemplate = ({ data }) => {
                   <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
                   <div className="hiit-am-1 rounded p-2">
                     <span>5:20am</span>
-                    <p>HITT Circuit</p>
+                    <p>{HIIT_CIRCUIT}</p>
                   </div>
                   <div className="hiit-am-2 rounded mt-2 p-2">
                     <span>6:20am</span>
-                    <p>HITT Circuit</p>
+                    <p>{HIIT_CIRCUIT}</p>
                   </div>
                   <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-pm-1 rounded p-2">
                     <span>6:00pm</span>
-                    <p>HITT Circuit</p>
+                    <p>{HIIT_CIRCUIT}</p>
                   </div>
                   <div className="hiit-pm-2 rounded p-2 mt-2">
                     <span>7:00pm</span>
-                    <p>HITT Circuit</p>
+                    <p>{HIIT_CIRCUIT}</p>
                   </div>
                 </div>
                 <div className="mobile-table">
@@ -78,7 +82,7 @@ const SchedulePageTemplate = ({ data }) => {
                   <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-orange rounded p-2 mt-2">
                     <span>6:30pm</span>
-                    <p>HITT Circuit</p>
+                    <p>{HIIT_CIRCUIT}</p>
                   </div>
                 </div>
                 <div className="mobile-table">
@@ -86,20 +90,20 @@ const SchedulePageTemplate = ({ data }) => {
                   <p className="mb-0 mt-4 has-text-weight-medium">Morning</p>
                   <div className="hiit-am-1 rounded p-2">
                     <span>5:20am</span>
-                    <p>HITT</p>
+                    <p>Strength</p>
                   </div>
                   <div className="hiit-am-2 rounded mt-2 p-2">
                     <span>6:20am</span>
-                    <p>HITT</p>
+                    <p>{HIIT}</p>
                   </div>
                   <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-pm-1 rounded p-2">
                     <span>6:00pm</span>
-                    <p>HITT</p>
+                    <p>{HIIT_BOXING}</p>
                   </div>
                   <div className="hiit-pm-2 rounded p-2 mt-2">
                     <span>7:00pm</span>
-                    <p>HITT</p>
+                    <p>Strength</p>
                   </div>
                 </div>
                 <div className="mobile-table">
@@ -107,7 +111,7 @@ const SchedulePageTemplate = ({ data }) => {
                   <p className="mb-0 mt-4 has-text-weight-medium">Afternoon</p>
                   <div className="hiit-orange rounded p-2 mt-2">
                     <span>8:30am</span>
-                    <p>HITT Boxing</p>
+                    <p>{HIIT_BOXING}</p>
                   </div>
                 </div>
                 <div className="table table-desktop">
@@ -123,17 +127,17 @@ const SchedulePageTemplate = ({ data }) => {
                   <div className="table-row">
                     <div className="table-cell hiit-am-1">
                       <span>5:20am</span>
-                      <p>HITT Boxing</p>
+                      <p>{HIIT_BOXING}</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell hiit-am-1">
                       <span>5:20am</span>
-                      <p>HITT Circuit</p>
+                      <p>{HIIT_CIRCUIT}</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell hiit-am-1">
                       <span>5:20am</span>
-                      <p>HITT</p>
+                      <p>Strength</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell"></div>
@@ -141,17 +145,17 @@ const SchedulePageTemplate = ({ data }) => {
                   <div className="table-row">
                     <div className="table-cell hiit-am-2">
                       <span>6:20am</span>
-                      <p>HITT Boxing</p>
+                      <p>{HIIT_BOXING}</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell hiit-am-2">
                       <span>6:20am</span>
-                      <p>HITT Circuit</p>
+                      <p>{HIIT_CIRCUIT}</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell hiit-am-2">
                       <span>6:20am</span>
-                      <p>HITT</p>
+                      <p>{HIIT}</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell"></div>
@@ -173,7 +177,7 @@ const SchedulePageTemplate = ({ data }) => {
                     <div className="table-cell"></div>
                     <div className="table-cell hiit-orange">
                       <span>8:30am</span>
-                      <p>HITT Boxing</p>
+                      <p>{HIIT_BOXING}</p>
                     </div>
                     <div className="table-cell"></div>
                   </div>
@@ -207,23 +211,23 @@ const SchedulePageTemplate = ({ data }) => {
                   <div className="table-row">
                     <div className="table-cell hiit-pm-1">
                       <span>6:00pm</span>
-                      <p>HITT Boxing</p>
+                      <p>{HIIT_BOXING}</p>
                     </div>
                     <div className="table-cell hiit-orange">
                       <span>6:30pm</span>
-                      <p>HITT Boxing</p>
+                      <p>{HIIT_BOXING}</p>
                     </div>
                     <div className="table-cell hiit-pm-1">
                       <span>6:00pm</span>
-                      <p>HITT Circuit</p>
+                      <p>{HIIT_CIRCUIT}</p>
                     </div>
                     <div className="table-cell hiit-orange">
                       <span>6:30pm</span>
-                      <p>HITT Circuit</p>
+                      <p>{HIIT_CIRCUIT}</p>
                     </div>
                     <div className="table-cell hiit-pm-1">
                       <span>6:00pm</span>
-                      <p>HITT</p>
+                      <p>{HIIT_BOXING}</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell"></div>
@@ -231,17 +235,17 @@ const SchedulePageTemplate = ({ data }) => {
                   <div className="table-row">
                     <div className="table-cell hiit-pm-2">
                       <span>7:00pm</span>
-                      <p>HITT Boxing</p>
+                      <p>{BOXING_TECHNIQUE}</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell hiit-pm-2">
                       <span>7:00pm</span>
-                      <p>HITT Circuit</p>
+                      <p>{HIIT_CIRCUIT}</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell hiit-pm-2">
                       <span>7:00pm</span>
-                      <p>HITT</p>
+                      <p>Strength</p>
                     </div>
                     <div className="table-cell"></div>
                     <div className="table-cell"></div>

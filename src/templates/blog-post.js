@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
-import { Helmet } from "react-helmet";
-import { graphql, Link } from "gatsby";
-import Layout from "../components/Layout";
-import Content, { HTMLContent } from "../components/Content";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { kebabCase } from 'lodash';
+import { Helmet } from 'react-helmet';
+import { graphql, Link } from 'gatsby';
+import Layout from '../components/Layout';
+import Content, { HTMLContent } from '../components/Content';
 
 // eslint-disable-next-line
 export const BlogPostTemplate = ({
@@ -19,7 +19,7 @@ export const BlogPostTemplate = ({
 
   return (
     <section className="section">
-      {helmet || ""}
+      {helmet || ''}
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -98,6 +98,16 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          childImageSharp {
+            gatsbyImageData(
+              width: 120
+              height: 120
+              quality: 100
+              layout: CONSTRAINED
+            )
+          }
+        }
       }
     }
   }
