@@ -6,5 +6,4 @@ description: WELL DONE
 featuredpost: true
 featuredimage: /img/copy-of-img_4806.jpg
 ---
-
-G﻿OOD GAME
+![](/img/copy-of-img_4806.jpg)
