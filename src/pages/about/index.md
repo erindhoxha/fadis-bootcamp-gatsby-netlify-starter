@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-title: About Joey's Bootcamp
+title: About us
 ---
 
 ### Be stronger than your strongest excuse

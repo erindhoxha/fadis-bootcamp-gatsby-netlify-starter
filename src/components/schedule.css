@@ -181,6 +181,7 @@
 
 .schedule-page {
   overflow: hidden;
+  padding-top: 48px;
 }
 
 .schedule-page .section {

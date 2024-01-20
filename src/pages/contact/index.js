@@ -37,15 +37,15 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <div className="container contact-container">
-          <div className="columns">
-            <div className="section" style={{ minWidth: "70%" }}>
+          <div className="content">
+            <div style={{ minWidth: "70%" }}>
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">
                 Contact us
               </h2>
               <p>
                 Call us at{" "}
-                <a className="is-primary" href="tel:0405369078">
-                  0405369078
+                <a className="is-primary" href="tel:+61 405 123 34567">
+                  +61 405 123 34567
                 </a>{" "}
                 or fill the form below:
               </p>
@@ -117,11 +117,29 @@ export default class Index extends React.Component {
                   <button className="button is-primary" type="submit">
                     Send message
                   </button>
-                  <p className="mt-4">
+                  <p className="mt-4 mb-4">
                     <small>We will get back to you as soon as possible.</small>
+                    <small className="block">
+                      Please see where we are located as well in the map below.
+                    </small>
+                  </p>
+                  <p className="mt-4 mb-4">
+                    155 Great N Rd, Five Dock NSW 2046
                   </p>
                 </div>
               </form>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.9297968061514!2d151.12838061564497!3d-33.865700080657064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a52661026bb1%3A0xc93b4f7bfb3254ef!Joey's&#39;s%20Bootcamp%20and%20Boxing!5e0!3m2!1sen!2sau!4v1669458023211!5m2!1sen!2sau"
+                width="100%"
+                style={{
+                  maxWidth: "100%",
+                  border: "0",
+                }}
+                height="450"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>

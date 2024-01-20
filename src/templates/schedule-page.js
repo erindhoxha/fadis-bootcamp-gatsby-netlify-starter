@@ -14,95 +14,99 @@ const SchedulePageTemplate = ({ title, content, contentComponent }) => {
   return (
     <div className="schedule-page">
       <div className="container">
-        <div className="columns">
-          <div className="section">
+        <div className="">
+          <div
+            style={{
+              width: "100%",
+            }}
+          >
             <h2 className="title title-center is-size-3 has-text-weight-bold is-bold-light underline mb-6">
               {title}
             </h2>
             <section
-              className="section"
               style={{
                 paddingTop: "0px",
                 paddingLeft: "0px",
                 paddingRight: "0px",
               }}
             >
-              <div className="content">
+              <div>
                 <div className="mobile-table">
                   <h4>Monday</h4>
-                  <div className="hiit-am-1 rounded p-2">
-                    <span>5:20am</span>
+                  <div className="hiit-am-1 rounded p-2 mt-1">
+                    <span className="block mb-0">Morning class | 5:20am</span>
                     <p>{HIIT_BOXING}</p>
                   </div>
                   <div className="hiit-am-2 rounded mt-1 p-2">
-                    <span>6:20am</span>
+                    <span className="block mb-0">Morning class | 6:20am</span>
+                    <span></span>
                     <p>{HIIT_BOXING}</p>
                   </div>
                   <div className="hiit-pm-1 rounded mt-1 p-2">
-                    <span>6:00pm</span>
+                    <span className="block mb-0">Evening class | 6:00pm</span>
                     <p>{HIIT_BOXING}</p>
                   </div>
                   <div className="hiit-pm-2 rounded p-2 mt-1">
-                    <span>7:00pm</span>
+                    <span className="block mb-0">Evening class | 7:00pm</span>
                     <p>{BOXING_TECHNIQUE}</p>
                   </div>
                 </div>
                 <div className="mobile-table">
                   <h4 className="mt-5">Tuesday</h4>
-                  <div className="hiit-orange rounded p-2 mt-2">
-                    <span>6:30pm</span>
+                  <div className="hiit-orange rounded p-2 mt-1">
+                    <span className="block mb-0">Evening class | 6:30pm</span>
                     <p>{HIIT_BOXING}</p>
                   </div>
                 </div>
                 <div className="mobile-table">
                   <h4 className="mt-5">Wednesday</h4>
-                  <div className="hiit-am-1 rounded p-2">
-                    <span>5:20am</span>
+                  <div className="hiit-am-1 rounded p-2 mt-1">
+                    <span className="block mb-0">Morning class | 5:20am</span>
                     <p>{HIIT_CIRCUIT}</p>
                   </div>
                   <div className="hiit-am-2 rounded mt-1 p-2">
-                    <span>6:20am</span>
+                    <span className="block mb-0">Morning class | 6:20am</span>
                     <p>{HIIT_CIRCUIT}</p>
                   </div>
                   <div className="hiit-pm-1 rounded mt-1 p-2">
-                    <span>6:00pm</span>
+                    <span className="block mb-0">Evening class | 6:20pm</span>
                     <p>{HIIT_CIRCUIT}</p>
                   </div>
                   <div className="hiit-pm-2 rounded p-2 mt-1">
-                    <span>7:00pm</span>
+                    <span className="block mb-0">Evening class | 7:00pm</span>
                     <p>{HIIT_CIRCUIT}</p>
                   </div>
                 </div>
                 <div className="mobile-table">
                   <h4 className="mt-5">Thursday</h4>
                   <div className="hiit-orange rounded p-2 mt-1">
-                    <span>6:30pm</span>
+                    <span className="block mb-0">Evening class | 6:30pm</span>
                     <p>{HIIT_CIRCUIT}</p>
                   </div>
                 </div>
                 <div className="mobile-table">
                   <h4 className="mt-5">Friday</h4>
-                  <div className="hiit-am-1 rounded p-2">
-                    <span>5:20am</span>
+                  <div className="hiit-am-1 rounded p-2 mt-1">
+                    <span className="block mb-0">Morning class | 5:20am</span>
                     <p>Strength</p>
                   </div>
                   <div className="hiit-am-2 rounded mt-1 p-2">
-                    <span>6:20am</span>
+                    <span className="block mb-0">Morning class | 6:20am</span>
                     <p>{HIIT}</p>
                   </div>
                   <div className="hiit-pm-1 rounded mt-1 p-2">
-                    <span>6:00pm</span>
+                    <span className="block mb-0">Evening class | 6:20pm</span>
                     <p>{HIIT_BOXING}</p>
                   </div>
                   <div className="hiit-pm-2 rounded p-2 mt-1">
-                    <span>7:00pm</span>
+                    <span className="block mb-0">Evening class | 7:00pm</span>
                     <p>Strength</p>
                   </div>
                 </div>
                 <div className="mobile-table">
                   <h4 className="mt-5">Saturday</h4>
                   <div className="hiit-orange rounded p-2 mt-1">
-                    <span>8:30am</span>
+                    <span className="block mb-0">Morning class | 8:30am</span>
                     <p>{HIIT_BOXING}</p>
                   </div>
                 </div>

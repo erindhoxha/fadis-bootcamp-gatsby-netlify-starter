@@ -14,7 +14,9 @@ $black: #2b2523
 a.is-primary
   color: $primary
 .button.is-secondary
-  color: $body-color
+  color: $white
+  background-color: transparent
+  border: 2px solid $white
 .gatsby-image-wrapper > div[aria-hidden="true"]
   display: none
 html
@@ -54,7 +56,8 @@ html
       border-bottom: none !important
   .navbar-item
     color: $white
-    border-bottom: 1px solid rgba(0,0,0,0.1)
+    border-bottom: 3px solid transparent
+    border-top: 3px solid transparent
     img
       max-height: 2rem !important
       @media screen and (min-width:1024px)
@@ -148,6 +151,8 @@ html
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
+.navbar-brand
+  margin-left: 0px !important
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
@@ -236,7 +241,7 @@ $menu-label-color: $white-ter
   width: 100%
   background: $primary
   position: absolute
-  bottom: -20px
+  bottom: -10px
   left: 0
 
 @media screen and (max-width:768px)
@@ -246,5 +251,5 @@ $menu-label-color: $white-ter
     width: 100% !important
     background: $primary
     position: absolute
-    bottom: -20px
+    bottom: -10px
     left: 0

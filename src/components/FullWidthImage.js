@@ -121,7 +121,7 @@ export default function FullWidthImage(props) {
               fontSize: "14px",
             }}
           >
-            144 Great N Rd, Five Dock NSW 2046
+            155 Great N Rd, Five Dock NSW 2046
           </a>
         </div>
       )}

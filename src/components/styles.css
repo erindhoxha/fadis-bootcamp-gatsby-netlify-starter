@@ -30,22 +30,34 @@ h6 {
   border: none !important;
 }
 
-.content img {
-  max-width: 600px;
+.about-page .section {
+  width: 100%;
 }
+
+.content {
+  padding: 48px 0.75rem;
+}
+
 .content p {
   max-width: 500px;
 }
 
 @media screen and (max-width: 640px) {
+  .columns {
+    margin: 0;
+  }
+  .column {
+    padding: 0;
+    margin-bottom: 1.25rem;
+  }
   .cta-btns {
     flex-direction: column;
   }
 }
 
 .cta {
-  margin-top: 72px;
-  margin-bottom: 72px;
+  margin-top: 36px;
+  margin-bottom: 52px;
   display: flex;
   justify-content: center;
 }
@@ -57,23 +69,31 @@ h6 {
   transition: 0.3s ease;
 }
 
-.cta .button:hover {
-  background-color: #b72a2a;
-}
-
 .contact-container form {
   max-width: 500px;
 }
 
-.nav-container {
+.block {
   display: block;
-  width: 100%;
-  flex-grow: 1;
-  margin: 0 auto;
-  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0px;
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .content img {
+    max-width: 600px;
+    width: 100%;
+  }
   .nav-container {
     display: flex;
     padding-right: 24px;
@@ -136,4 +156,12 @@ h6 {
 .submission-form textarea:-moz-placeholder {
   /* Firefox 18- */
   color: rgba(255, 255, 255, 0.3);
+}
+
+.button.is-secondary:hover {
+  color: white !important;
+}
+
+.columns {
+  margin-top: 0px !important;
 }

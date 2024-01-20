@@ -31,7 +31,7 @@ export const IndexPageTemplate = ({
               <div className="cta">
                 <button className="button is-primary">{cta}</button>
               </div>
-              <div className="content">
+              <div className="mb-5">
                 <div className="tile">
                   <h1 className="title underline">{mainpitch.title}</h1>
                 </div>
