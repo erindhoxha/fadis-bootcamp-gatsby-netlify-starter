@@ -52,11 +52,21 @@ class BlogRollTemplate extends React.Component {
                       className="subtitle is-size-7 is-block"
                       style={{ display: "block" }}
                     >
+                      {post.excerpt}
+                    </span>
+                    <span
+                      className="subtitle is-size-7 is-block"
+                      style={{ display: "block" }}
+                    >
                       {post.frontmatter.date}
                     </span>
                   </p>
                 </header>
-                <p style={{ marginTop: "auto" }}>{post.excerpt}</p>
+                <p style={{ marginTop: "auto" }}>
+                  <Link className="button is-secondary" to={post.fields.slug}>
+                    Read story →
+                  </Link>
+                </p>
               </article>
             </div>
           ))}
@@ -98,6 +108,7 @@ export default function BlogRoll() {
                     childImageSharp {
                       gatsbyImageData(
                         width: 120
+                        height: 120
                         quality: 100
                         layout: CONSTRAINED
                       )

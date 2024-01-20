@@ -136,7 +136,7 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/schedule/index.md"
         label: "Schedule"
-        name: "schedule"
+        name: "Schedule"
         fields:
           - {
               label: "Template Key",
@@ -144,4 +144,88 @@ collections:
               widget: "hidden",
               default: "schedule-page",
             }
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: Title, name: title, widget: string }
+          - label: Monday
+            name: monday
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: Time,
+                  name: time,
+                  widget: datetime,
+                  date_format: "",
+                  time_format: "HH:mm",
+                }
+          - label: Tuesday
+            name: tuesday
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: Time,
+                  name: time,
+                  widget: datetime,
+                  date_format: "",
+                  time_format: "HH:mm",
+                }
+          - label: Wednesday
+            name: wednesday
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: Time,
+                  name: time,
+                  widget: datetime,
+                  date_format: "",
+                  time_format: "HH:mm",
+                }
+          - label: Thursday
+            name: thursday
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: Time,
+                  name: time,
+                  widget: datetime,
+                  date_format: "",
+                  time_format: "HH:mm",
+                }
+          - label: Friday
+            name: friday
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: Time,
+                  name: time,
+                  widget: datetime,
+                  date_format: "",
+                  time_format: "HH:mm",
+                }
+          - label: Saturday
+            name: saturday
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: Time,
+                  name: time,
+                  widget: datetime,
+                  date_format: "",
+                  time_format: "HH:mm",
+                }
+          - label: Sunday
+            name: sunday
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - {
+                  label: Time,
+                  name: time,
+                  widget: datetime,
+                  date_format: "",
+                  time_format: "HH:mm",
+                }
