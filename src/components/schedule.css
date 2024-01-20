@@ -11,8 +11,8 @@
   display: table;
   width: 100%;
   border-collapse: collapse;
-  background-color: rgb(15, 15, 15);
-  color: rgb(232, 232, 232);
+  background-color: rgb(15, 15, 15) !important;
+  color: rgb(232, 232, 232) !important;
 }
 .table-row {
   display: table-row;

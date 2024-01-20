@@ -3,20 +3,21 @@ import { graphql } from "gatsby";
 import "../components/schedule.css";
 import Layout from "../components/Layout";
 import PropTypes from "prop-types";
+import { HTMLContent } from "../components/Content";
 
 const BOXING_TECHNIQUE = "Boxing Technique";
 const HIIT_BOXING = "HIIT Boxing";
 const HIIT_CIRCUIT = "HIIT Circuit";
 const HIIT = "HIIT";
 
-const SchedulePageTemplate = ({ data }) => {
+const SchedulePageTemplate = ({ title, content, contentComponent }) => {
   return (
     <div className="schedule-page">
       <div className="container">
         <div className="columns">
           <div className="section">
             <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">
-              {data.markdownRemark.frontmatter.title}
+              {title}
             </h2>
             <section
               className="section"
@@ -263,21 +264,26 @@ SchedulePageTemplate.propTypes = {
 };
 
 const SchedulePage = ({ data }) => {
+  const { markdownRemark: post } = data;
   return (
     <Layout>
-      <SchedulePageTemplate title={data.markdownRemark.frontmatter.title} />
+      <SchedulePageTemplate
+        contentComponent={HTMLContent}
+        title={post.frontmatter.title}
+        content={post.html}
+      />
     </Layout>
   );
 };
 
-SchedulePageTemplate.propTypes = {
+SchedulePage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default SchedulePageTemplate;
+export default SchedulePage;
 
 export const schedulePageQuery = graphql`
-  query SchedulePageTemplate($id: String!) {
+  query SchedulePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
