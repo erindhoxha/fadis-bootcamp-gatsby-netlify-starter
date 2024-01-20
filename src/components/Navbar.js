@@ -14,14 +14,11 @@ const Navbar = class extends React.Component {
   }
 
   toggleHamburger() {
-    // toggle the active boolean in the state
     this.setState(
       {
         active: !this.state.active,
       },
-      // after state has been updated,
       () => {
-        // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
               navBarActiveClass: "is-active",
@@ -29,7 +26,7 @@ const Navbar = class extends React.Component {
           : this.setState({
               navBarActiveClass: "",
             });
-      }
+      },
     );
   }
 
@@ -40,12 +37,11 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div className="nav-container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
+            <Link to="/" className="navbar-item no-hover" title="Logo">
               <img src={logo} alt="Kaldi" style={{ height: "200px" }} />
             </Link>
-            {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
@@ -80,7 +76,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://www.instagram.com/fadis_bootcamp_boxing/"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -90,7 +86,7 @@ const Navbar = class extends React.Component {
               </a>
               <a
                 className="navbar-item"
-                href="https://www.facebook.com/fadisbootcampandboxing"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -8,13 +8,14 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
-// eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,
   title,
   heading,
   subheading,
   mainpitch,
+  cta,
+  ctaLink,
   description,
   intro,
 }) => {
@@ -24,26 +25,27 @@ export const IndexPageTemplate = ({
     <>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
+        <div className="columns p-4">
+          <div>
+            <div className="content">
+              <div className="cta">
+                <button className="button is-primary">{cta}</button>
+              </div>
               <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title underline">{mainpitch.title}</h1>
-                  </div>
+                <div className="tile">
+                  <h1 className="title underline">{mainpitch.title}</h1>
                 </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="column is-12 mt-6">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Success stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
+              </div>
+              <Features gridItems={intro.blurbs} />
+              <div className="column is-12 mt-6">
+                <h3 className="is-size-3 title underline mb-6">
+                  Success stories
+                </h3>
+                <BlogRoll />
+                <div className="column is-12 has-text-centered">
+                  <Link className="btn" to="/blog">
+                    Read more
+                  </Link>
                 </div>
               </div>
             </div>
@@ -60,6 +62,7 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
+  cta: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -77,6 +80,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
+        cta={frontmatter.cta}
         description={frontmatter.description}
         intro={frontmatter.intro}
       />
@@ -110,12 +114,18 @@ export const pageQuery = graphql`
           title
           description
         }
+        cta
         description
         intro {
           blurbs {
             image {
               childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+                gatsbyImageData(
+                  width: 500
+                  height: 300
+                  quality: 64
+                  layout: CONSTRAINED
+                )
               }
             }
             text

@@ -60,6 +60,7 @@ collections:
                   { label: Description, name: description, widget: text },
                 ],
             }
+          - { label: Cta, name: cta, widget: string }
           - { label: Description, name: description, widget: string }
           - {
               label: Intro,
@@ -133,14 +134,14 @@ collections:
             }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-      - file: "src/pages/schedule.md"
+      - file: "src/pages/schedule/index.md"
         label: "Schedule"
-        name: "Schedule"
+        name: "schedule"
         fields:
           - {
               label: "Template Key",
               name: "templateKey",
               widget: "hidden",
-              default: "index-page",
+              default: "schedule-page",
             }
-          - { label: Title, name: title, widget: string }
+          - { label: "Title", name: "title", widget: "string" }

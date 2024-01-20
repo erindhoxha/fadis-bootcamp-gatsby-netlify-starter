@@ -5,6 +5,7 @@
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #66722f
 $kaldi-red-invert: #fff
+$white: rgb(232, 232, 232)
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
@@ -13,11 +14,7 @@ $black: #2b2523
 a.is-primary
   color: $primary
 .button.is-secondary
-  border: none
-  background: none
-  font-size: 14px
-.button.is-secondary:hover
-  color: $kaldi-red
+  color: $body-color
 .gatsby-image-wrapper > div[aria-hidden="true"]
   display: none
 html
@@ -41,8 +38,9 @@ html
     line-height: 100%
 .navbar-menu
   padding: 0px !important
+  background-color: #181818 !important
 .navbar
-  background-color: #131313 !important
+  background-color: #181818 !important
   max-height: 10vh
   position: relative
   display: flex
@@ -52,15 +50,21 @@ html
   a
     font-weight: 600
   .navbar-item:last-of-type
-    border-bottom: none !important
+    @media screen and (max-width:1024px)
+      border-bottom: none !important
   .navbar-item
+    color: $white
     border-bottom: 1px solid rgba(0,0,0,0.1)
     img
       max-height: 2rem !important
       @media screen and (min-width:1024px)
         max-height: 3rem !important
   .navbar-item:hover
-    color: $kaldi-red
+    transition: 0.3s ease
+    color: $white
+    background-color: #000
+    @media screen and (min-width:1024px)
+      border-bottom: 3px solid $primary
 .overlay
   position: absolute
   width: 100%
@@ -209,6 +213,8 @@ $menu-label-color: $white-ter
   box-shadow: none
   border: 1px solid rgba(0,0,0,0.1)
   border-radius: 12px
+.gatsby-image-wrapper-constrained
+  display: flex !important
 .about-page
   a
     color: $kaldi-red
@@ -216,13 +222,18 @@ $menu-label-color: $white-ter
 .underline
   position: relative
   z-index: 1
+  display: flex
+  width: max-content
+.title-center
+  text-align: center
+  margin:0 auto
 .blog-list-item
   a.button.is-secondary
     padding-left: 0px
 .underline:before
   content: ""
   height: 3px
-  width: 120px
+  width: 100%
   background: $kaldi-red
   position: absolute
   bottom: -20px

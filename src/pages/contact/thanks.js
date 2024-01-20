@@ -13,7 +13,7 @@ export default () => (
             className="title is-size-4 has-text-weight-bold is-bold-light"
             style={{ maxWidth: "800px" }}
           >
-            Thank you for your interest to join Fadi's Bootcamp & Boxing club!
+            Thank you for your interest to join Joey's Bootcamp & Boxing club!
           </h1>
           <p className="is-size-6 has-text-weight-regular">
             Our team will come back to you shortly.

@@ -36,7 +36,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <div className="container">
+        <div className="container contact-container">
           <div className="columns">
             <div className="section" style={{ minWidth: "70%" }}>
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">

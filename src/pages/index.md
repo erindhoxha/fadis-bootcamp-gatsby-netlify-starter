@@ -1,10 +1,12 @@
 ---
 templateKey: index-page
-title: Welcome to Fadi's Bootcamp & Boxing
+title: Welcome to Joey's Bootcamp & Boxing Club
 image: /img/pexels-koolshooters-9945075.jpg
-heading: Welcome to Fadi's Bootcamp & Boxing
-subheading: We help people lose fat and keep it off by teaching balance and how
-  to fit all kinds of food
+heading: Welcome to Joey's Bootcamp & Boxing club
+cta: "Get your free 7 days pass"
+subheading:
+  We help people stay active and keep the extra weight off by teaching balance and how
+  to fit all kinds of food while incorporating training and good diet
 mainpitch:
   title: Why join us?
   description: Not only we help people lose fat and keep it off by teaching
@@ -16,15 +18,15 @@ description: Kaldi is the ultimate spot for coffee lovers who want to learn
   knowledge to anyone.
 intro:
   blurbs:
-    - image: /img/papery-scales.png
+    - image: /img/blog-1.jpg
       text: Body fat percentage measurements at the start and the end of the program
-    - image: /img/quirky-big-clock-with-graphic-elements-1.png
+    - image: /img/blog-2.jpg
       text:
         Set weekly goals and hold you accountable to these goals and show you how
         to lose weight and keep it off by balancing your diet.
-    - image: /img/biro-large-stationary-blender-grinds-fruit.png
+    - image: /img/blog-3.jpg
       text: We help you with your nutrition plan and track your food each week
-    - image: /img/bloom-girl-exercising-with-an-online-trainer.png
+    - image: /img/carousel-2.jpg
       text: "Provide weekly support - HIIT Training for best results - Circuit
         training - Boxing training - One-on-one PT and boxing sessions "
   heading: What we offer

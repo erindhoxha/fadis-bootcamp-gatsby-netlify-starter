@@ -17,7 +17,7 @@ export default function FullWidthImage(props) {
       className="margin-top-0"
       style={{
         display: "grid",
-        minHeight: "50vh",
+        minHeight: "95vh",
         maxHeight: "700px",
         alignItems: "center",
         position: "relative",
@@ -88,7 +88,7 @@ export default function FullWidthImage(props) {
           )}
           {subheading && (
             <h4
-              className="has-text-weight-regular has-text-centered is-size-6-mobile is-size-5-tablet is-size-6-widescreen"
+              className="has-text-weight-regular has-text-centered is-size-6-mobile is-size-6-tablet is-size-6-widescreen"
               style={{
                 color: "white",
                 lineHeight: "1.4",
@@ -100,9 +100,20 @@ export default function FullWidthImage(props) {
               {subheading}
             </h4>
           )}
-          <Link to="/schedule" className="button is-primary mt-5">
-            View schedule
-          </Link>
+          <div
+            className="flex cta-btns mt-5"
+            style={{
+              gap: "12px",
+            }}
+          >
+            <Link to="/schedule" className="button is-secondary">
+              View schedule
+            </Link>
+            <Link to="/contact" className="button is-primary">
+              Book in for your free class
+            </Link>
+          </div>
+
           <a
             style={{
               color: "white",
@@ -110,9 +121,8 @@ export default function FullWidthImage(props) {
               textDecoration: "underline",
               fontSize: "14px",
             }}
-            href="https://g.page/fadisbootcampandboxingfivedock?share"
           >
-            138 Great N Rd, Five Dock NSW 2046
+            144 Great N Rd, Five Dock NSW 2046
           </a>
         </div>
       )}

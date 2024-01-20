@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Fadi's Bootcamp & Boxing | Sydney NSW | Join now",
+    title: "Joey's Bootcamp & Boxing | Sydney NSW | Join now",
     description:
       "We provide: - Body fat percentage measurements at the start and the end of the program - Set weekly goals and hold you accountable to these goals - Weekly weigh-ins - We help you with your nutrition plan and track your food each week - Provide weekly support - HIIT Training for best results - Circuit training - Boxing training - One on one PT and boxing sessions - show you how to lose weight and keep it off through balancing your diet.",
   },

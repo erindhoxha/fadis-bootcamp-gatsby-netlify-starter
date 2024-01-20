@@ -56,12 +56,7 @@ class BlogRollTemplate extends React.Component {
                     </span>
                   </p>
                 </header>
-                <p style={{ marginTop: "auto" }}>
-                  {post.excerpt}
-                  <Link className="button is-secondary" to={post.fields.slug}>
-                    Read story →
-                  </Link>
-                </p>
+                <p style={{ marginTop: "auto" }}>{post.excerpt}</p>
               </article>
             </div>
           ))}
