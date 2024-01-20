@@ -14,7 +14,7 @@ const SchedulePageTemplate = ({ title, content, contentComponent }) => {
   return (
     <div className="schedule-page">
       <div className="container">
-        <div className="">
+        <div className="px-3">
           <div
             style={{
               width: "100%",

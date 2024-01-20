@@ -37,14 +37,14 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <div className="container contact-container">
-          <div className="content">
+          <div className="content px-3">
             <div style={{ minWidth: "70%" }}>
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">
                 Contact us
               </h2>
               <p>
                 Call us at{" "}
-                <a className="is-primary" href="tel:+61 405 123 34567">
+                <a className="link is-primary" href="tel:+61 405 123 34567">
                   +61 405 123 34567
                 </a>{" "}
                 or fill the form below:
@@ -119,9 +119,6 @@ export default class Index extends React.Component {
                   </button>
                   <p className="mt-4 mb-4">
                     <small>We will get back to you as soon as possible.</small>
-                    <small className="block">
-                      Please see where we are located as well in the map below.
-                    </small>
                   </p>
                   <p className="mt-4 mb-4">
                     155 Great N Rd, Five Dock NSW 2046

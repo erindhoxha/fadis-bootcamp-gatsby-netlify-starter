@@ -25,7 +25,7 @@ export const IndexPageTemplate = ({
     <>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <div className="container">
-        <div className="columns p-4">
+        <div className="columns px-3">
           <div>
             <div className="content">
               <div className="cta">

@@ -10,7 +10,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <div className="container about-page">
-      <div className="content">
+      <div className="content px-3">
         <div>
           <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">
             {title}
