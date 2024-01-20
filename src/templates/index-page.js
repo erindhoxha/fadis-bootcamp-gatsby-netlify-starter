@@ -37,17 +37,16 @@ export const IndexPageTemplate = ({
                 </div>
               </div>
               <Features gridItems={intro.blurbs} />
-              <div className="column is-12 mt-6">
-                <h3 className="is-size-3 title underline mb-6">
-                  Success stories
-                </h3>
-                <BlogRoll />
-                <div className="column is-12 has-text-centered">
+              {/* <div className="column is-12 mt-6"> */}
+              {/* Success stories */}
+              {/* <h3 className="is-size-3 title underline mb-6">{heading}</h3> */}
+              {/* <BlogRoll /> */}
+              {/* <div className="column is-12 has-text-centered">
                   <Link className="btn" to="/blog">
                     Read more
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

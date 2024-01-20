@@ -14,10 +14,9 @@ export default function FullWidthImage(props) {
 
   return (
     <div
-      className="margin-top-0"
+      className="margin-top-0 header-img"
       style={{
         display: "grid",
-        minHeight: "95vh",
         maxHeight: "700px",
         alignItems: "center",
         position: "relative",

@@ -44,17 +44,16 @@ h6 {
 }
 
 .cta {
-  margin-top: 24px;
-  margin-bottom: 36px;
+  margin-top: 72px;
+  margin-bottom: 72px;
   display: flex;
   justify-content: center;
 }
 
 .cta .button {
-  font-size: 18px;
   padding-left: 24px;
   padding-right: 24px;
-  background-color: hsl(0, 61%, 37%);
+  background-color: #66722f;
   transition: 0.3s ease;
 }
 
@@ -94,4 +93,47 @@ h6 {
 
 .label {
   color: rgb(232, 232, 232);
+}
+
+@media screen and (min-width: 1028px) {
+  .header-img {
+    min-height: 95vh;
+  }
+}
+@media screen and (max-width: 1028px) {
+  .header-img {
+    min-height: 600px;
+  }
+}
+
+.submission-form input,
+.submission-form textarea {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+
+.submission-form input:focus,
+.submission-form textarea:focus {
+  border-color: white !important;
+}
+
+.submission-form input::-webkit-input-placeholder,
+.submission-form textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.3);
+}
+.submission-form input::-moz-placeholder,
+.submission-form textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.3);
+}
+.submission-form input:-ms-input-placeholder,
+.submission-form textarea:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(255, 255, 255, 0.3);
+}
+.submission-form input:-moz-placeholder,
+.submission-form textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.3);
 }

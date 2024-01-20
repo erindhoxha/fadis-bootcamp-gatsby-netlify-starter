@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Welcome to Joey's Bootcamp & Boxing Club
 image: /img/pexels-koolshooters-9945075.jpg
-heading: Welcome to Joey's Bootcamp & Boxing club
+heading: Success stories
 cta: "Get your free 7 days pass"
 subheading:
   We help people stay active and keep the extra weight off by teaching balance and how

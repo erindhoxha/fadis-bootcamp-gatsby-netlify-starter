@@ -16,7 +16,7 @@ const SchedulePageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="columns">
           <div className="section">
-            <h2 className="title is-size-3 has-text-weight-bold is-bold-light underline mb-6">
+            <h2 className="title title-center is-size-3 has-text-weight-bold is-bold-light underline mb-6">
               {title}
             </h2>
             <section
